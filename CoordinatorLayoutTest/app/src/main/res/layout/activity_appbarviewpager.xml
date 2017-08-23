@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout android:id="@+id/main_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:layout_behavior="com.example.kylinarm.coordinatorlayouttest.FlingBehavior"
+        >
+
+        <FrameLayout
+            app:layout_scrollFlags="scroll|exitUntilCollapsed"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:background="#cdcdcd"
+            ></FrameLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tl_tab"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#ffff"
+            app:tabMode="fixed"
+            app:tabGravity="fill"
+            app:tabTextColor="#0000"
+            app:tabSelectedTextColor="@color/colorAccent"
+            app:tabIndicatorColor="@color/colorAccent"
+            app:tabIndicatorHeight="2dp"
+            />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <com.example.kylinarm.coordinatorlayouttest.MyViewPager
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        android:id="@+id/vp_content"
+        android:background="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </com.example.kylinarm.coordinatorlayouttest.MyViewPager>
+
+</android.support.design.widget.CoordinatorLayout>

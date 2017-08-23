@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\gitcode\\CoordinatorLayoutTest\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\gif_drawable.xml",
+        "source": "F:\\gitcode\\CoordinatorLayoutTest\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable\\gif_drawable.xml"
+    },
+    {
+        "merged": "F:\\gitcode\\CoordinatorLayoutTest\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "F:\\gitcode\\CoordinatorLayoutTest\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "F:\\gitcode\\CoordinatorLayoutTest\\pulltorefresh\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "F:\\gitcode\\CoordinatorLayoutTest\\pulltorefresh\\build\\intermediates\\bundles\\debug\\res\\drawable\\indicator_bg_bottom.xml"
+    }
+]
