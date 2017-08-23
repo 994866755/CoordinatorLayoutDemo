@@ -1,17 +1,17 @@
-# CoordinatorLayoutDemo
+CoordinatorLayoutDemo
 ------------------------
 
 这里使用一个demo来说明CorrdinatorLayout的简单用法。
 
 
-# 项目说明
+项目说明
 -----------------
 
 http://www.jianshu.com/p/4b2d2ce509a5
 代码说明基本都写在文档中
 
 
-#App主页面demo说明
+App主页面demo说明
 ----------------------
 
 从上往下五个按钮分别实现以下demo
